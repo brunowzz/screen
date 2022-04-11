@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #ffffff;
+    width: 45vh;
+    height: 65vh;
+    border-radius: 15px;
+}
+.hero-image {
+    width: 45vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.container {
+    text-align: center;
+    padding: 5%;    
+}
+h2 {
+    color: #1E2D54;
+    font-size: 28px;
+    font-weight: 900;
+}
+.first-paragraph {
+    color: #8C94A7;
+    margin-top: 14px;
+    font-size: 20px;
+}
+.plan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.purchase {
+    margin-left: 1vw;
+    margin-right: 2vw;
+}
+.purchase h4{
+    color: #151B35;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+}
+.purchase p {
+    color: #7A7F92;
+    font-size: 16px;
+    cursor: pointer;
+}
+.change a {
+    text-decoration-color: #514C9F;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #382AE1;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    font-size: 14px;
+    width: 80%;
+    height: 5vh;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: 0.8s;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.5;
+}
+.cancel {
+    color: #A7ADC8;
+    cursor: pointer;
+}
+
